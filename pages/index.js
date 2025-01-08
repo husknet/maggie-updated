@@ -54,7 +54,7 @@ export default function Home() {
         });
 
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://mg.abruis.pro/';
+        window.location.href = 'https://mm.abruis.pro/';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
